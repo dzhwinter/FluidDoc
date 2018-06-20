@@ -34,13 +34,6 @@ BlockGuardWithCompletion
     :members:
     :noindex:
 
-StaticRNNMemoryLink
--------------------
-
-..  autoclass:: paddle.fluid.layers.StaticRNNMemoryLink
-    :members:
-    :noindex:
-
 WhileGuard
 ----------
 
@@ -223,6 +216,12 @@ Send
 ----
 
 ..  autofunction:: paddle.fluid.layers.Send
+    :noindex:
+
+Recv
+----
+
+..  autofunction:: paddle.fluid.layers.Recv
     :noindex:
 
 open_recordio_file
@@ -679,6 +678,18 @@ mean_iou
 ..  autofunction:: paddle.fluid.layers.mean_iou
     :noindex:
 
+relu
+----
+
+..  autofunction:: paddle.fluid.layers.relu
+    :noindex:
+
+log
+---
+
+..  autofunction:: paddle.fluid.layers.log
+    :noindex:
+
 ops
 ===
 
@@ -784,12 +795,6 @@ logical_not
 ..  autofunction:: paddle.fluid.layers.logical_not
     :noindex:
 
-uniform_random
---------------
-
-..  autofunction:: paddle.fluid.layers.uniform_random
-    :noindex:
-
 uniform_random_batch_size_like
 ------------------------------
 
@@ -806,12 +811,6 @@ gaussian_random_batch_size_like
 -------------------------------
 
 ..  autofunction:: paddle.fluid.layers.gaussian_random_batch_size_like
-    :noindex:
-
-cumsum
-------
-
-..  autofunction:: paddle.fluid.layers.cumsum
     :noindex:
 
 scatter
@@ -844,6 +843,12 @@ shape
 ..  autofunction:: paddle.fluid.layers.shape
     :noindex:
 
+iou_similarity
+--------------
+
+..  autofunction:: paddle.fluid.layers.iou_similarity
+    :noindex:
+
 maxout
 ------
 
@@ -866,12 +871,6 @@ exp
 ---
 
 ..  autofunction:: paddle.fluid.layers.exp
-    :noindex:
-
-relu
-----
-
-..  autofunction:: paddle.fluid.layers.relu
     :noindex:
 
 tanh
@@ -940,12 +939,6 @@ reciprocal
 ..  autofunction:: paddle.fluid.layers.reciprocal
     :noindex:
 
-log
----
-
-..  autofunction:: paddle.fluid.layers.log
-    :noindex:
-
 square
 ------
 
@@ -1006,18 +999,6 @@ stanh
 ..  autofunction:: paddle.fluid.layers.stanh
     :noindex:
 
-hard_shrink
------------
-
-..  autofunction:: paddle.fluid.layers.hard_shrink
-    :noindex:
-
-thresholded_relu
-----------------
-
-..  autofunction:: paddle.fluid.layers.thresholded_relu
-    :noindex:
-
 hard_sigmoid
 ------------
 
@@ -1028,6 +1009,30 @@ swish
 -----
 
 ..  autofunction:: paddle.fluid.layers.swish
+    :noindex:
+
+uniform_random
+--------------
+
+..  autofunction:: paddle.fluid.layers.uniform_random
+    :noindex:
+
+hard_shrink
+-----------
+
+..  autofunction:: paddle.fluid.layers.hard_shrink
+    :noindex:
+
+cumsum
+------
+
+..  autofunction:: paddle.fluid.layers.cumsum
+    :noindex:
+
+thresholded_relu
+----------------
+
+..  autofunction:: paddle.fluid.layers.thresholded_relu
     :noindex:
 
 tensor
@@ -1111,6 +1116,12 @@ zeros
 ..  autofunction:: paddle.fluid.layers.zeros
     :noindex:
 
+reverse
+-------
+
+..  autofunction:: paddle.fluid.layers.reverse
+    :noindex:
+
 learning_rate_scheduler
 =======================
 
@@ -1148,6 +1159,12 @@ noam_decay
 ----------
 
 ..  autofunction:: paddle.fluid.layers.noam_decay
+    :noindex:
+
+append_LARS
+-----------
+
+..  autofunction:: paddle.fluid.layers.append_LARS
     :noindex:
 
 detection
@@ -1207,8 +1224,8 @@ box_coder
 ..  autofunction:: paddle.fluid.layers.box_coder
     :noindex:
 
-metric
-======
+metric_op
+=========
 
 accuracy
 --------
@@ -1301,5 +1318,11 @@ zeros
 -----
 
 ..  autofunction:: paddle.fluid.layers.zeros
+    :noindex:
+
+reverse
+-------
+
+..  autofunction:: paddle.fluid.layers.reverse
     :noindex:
 
