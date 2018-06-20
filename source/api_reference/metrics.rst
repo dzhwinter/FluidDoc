@@ -19,6 +19,20 @@ CompositeMetric
     :members:
     :noindex:
 
+Precision
+---------
+
+..  autoclass:: paddle.fluid.metrics.Precision
+    :members:
+    :noindex:
+
+Recall
+------
+
+..  autoclass:: paddle.fluid.metrics.Recall
+    :members:
+    :noindex:
+
 Accuracy
 --------
 
